@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import { Button } from "../ui";
 import { AccountRecovery } from '../icons/accountRecovery';
+import { TabButtonBase } from '../icons/tabButtonBase';
 export const SideMenu = () => {
 return(
   <div 
@@ -28,15 +29,17 @@ return(
           fontWeight: '500',
           lineHeight: '20px',
           letterSpacing: '0.24px',
-          textTransform: 'uppercase'
+          textTransform: 'uppercase',
+  
         }}
       >
         Personal
       </h3>
-          <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-        <AccountRecovery />
-
-        <h4 
+          <div style={{ display: 'flex', alignItems: 'center' }}>
+          <div style={{marginRight: '0px', paddingLeft:'11px'}}>
+        <AccountRecovery/>
+    </div>
+        <span 
           style={{
             color: 'var(--gray-500, #667085)',
             fontFamily: 'Inter',
@@ -44,13 +47,30 @@ return(
             fontStyle: 'normal',
             fontWeight: '600',
             lineHeight: '24px',
-            textTransform: 'capitalize'
+            textTransform: 'capitalize',
+            padding: '8px 12px',
           }}
         >
           Account Recovery
-        </h4>
+        </span>
+        </div>
+        <div style={{display: 'flex', alignItems: 'center', gap: '4px'}}>
+                <TabButtonBase/>
+                <span style={{
+                    color: "var(--gray-500, #667085)",
+                    fontFamily: "Inter",
+                    fontSize: "14px",
+                    fontStyle: "normal",
+                    fontWeight: "600",
+                    lineHeight: "24px",
+                    textTransform: "capitalize",
+                    padding: '8px 12px',
+                }}>
+        </span>
+            </div>
+
       </div>
-    </div>
+
   );
 }
 

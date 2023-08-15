@@ -23,7 +23,7 @@ export const Sidebar =() => {
           <TooltipProvider>
             <Tooltip>
               <TooltipTrigger className="inline-flex h-10 w-10 items-center justify-center rounded-[4px] text-gray-500 transition-colors hover:bg-primary-50 hover:text-primary-500 focus:outline-none">
-                <Home style={{ width: '15px', height: '15px' }} />
+                <Home style={{ width: '20px', height: '20px' }} />
               </TooltipTrigger>
               <TooltipContent className="font-semibold" side="right">
                 Home
@@ -33,7 +33,7 @@ export const Sidebar =() => {
           <TooltipProvider>
             <Tooltip>
               <TooltipTrigger className="inline-flex h-10 w-10 items-center justify-center rounded-[4px] text-gray-500 transition-colors hover:bg-primary-50 hover:text-primary-500 focus:outline-none">
-                <BarChartSquare style={{ width: '15px', height: '15px' }} />
+                <BarChartSquare style={{ width: '20px', height: '20px' }} />
               </TooltipTrigger>
               <TooltipContent className="font-semibold" side="right">
                 Stats
@@ -43,7 +43,7 @@ export const Sidebar =() => {
           <TooltipProvider>
             <Tooltip>
               <TooltipTrigger className="inline-flex h-10 w-10 items-center justify-center rounded-[4px] text-gray-500 transition-colors hover:bg-primary-50 hover:text-primary-500 focus:outline-none">
-                <ThreeLayers style={{ width: '15px', height: '15px' }} />
+                <ThreeLayers style={{ width: '20px', height: '20px' }} />
               </TooltipTrigger>
               <TooltipContent className="font-semibold" side="right">
                 Projects
@@ -53,7 +53,7 @@ export const Sidebar =() => {
           <TooltipProvider>
             <Tooltip>
               <TooltipTrigger className="inline-flex h-10 w-10 items-center justify-center rounded-[4px] text-gray-500 transition-colors hover:bg-primary-50 hover:text-primary-500 focus:outline-none">
-                <Users style={{ width: '15px', height: '15px' }}/>
+                <Users style={{ width: '20px', height: '20px' }}/>
               </TooltipTrigger>
               <TooltipContent className="font-semibold" side="right">
                 Team
@@ -66,7 +66,7 @@ export const Sidebar =() => {
           <TooltipProvider>
             <Tooltip>
               <TooltipTrigger className="inline-flex h-10 w-10 items-center justify-center rounded-[4px] text-gray-500 transition-colors hover:bg-primary-50 hover:text-primary-500 focus:outline-none">
-                <LifeBouy />
+                <LifeBouy className="h-[20px] w-[20px]"  />
               </TooltipTrigger>
               <TooltipContent className="font-semibold" side="right">
                 Support
@@ -76,7 +76,7 @@ export const Sidebar =() => {
           <TooltipProvider>
             <Tooltip>
               <TooltipTrigger className="inline-flex h-10 w-10 items-center justify-center rounded-[4px] text-gray-500 transition-colors hover:bg-primary-50 hover:text-primary-500 focus:outline-none">
-                <Settings className="h-[18px] w-[18px]" />
+                <Settings className="h-[20px] w-[20px]" />
               </TooltipTrigger>
               <TooltipContent className="font-semibold" side="right">
                 Settings

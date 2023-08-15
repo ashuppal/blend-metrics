@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import { Button } from "../ui";
 import { AccountRecovery } from '../icons/accountRecovery';
 import { TabButtonBase } from '../icons/tabButtonBase';
+import { Lock } from '../icons/Lock';
 export const SideMenu = () => {
 return(
   <div 
@@ -68,7 +69,21 @@ return(
                 }}>
         </span>
             </div>
-
+            <div style={{display: 'flex', alignItems: 'center', gap: '4px',marginRight: '0px', paddingLeft:'11px'}}>
+                <Lock/>
+                <span style={{
+                    color: "var(--gray-500, #667085)",
+                    fontFamily: "Inter",
+                    fontSize: "14px",
+                    fontStyle: "normal",
+                    fontWeight: "600",
+                    lineHeight: "24px",
+              
+                    padding: '8px 12px',
+                }}>
+                  Two-Factor Auth
+        </span>
+            </div>
       </div>
 
   );

@@ -8,14 +8,15 @@ return(
   style={{ 
     display: 'flex', 
     width: '224px', 
-    height: '698px', 
+    height: '100vh', 
     padding: '15px', 
     flexDirection: 'column', 
     alignItems: 'flex-start', 
     gap: '8px', 
-    flexShrink: 0 
+    flexShrink: 0 ,
+ 
   }} 
-  className=" bg-white"
+  className=" bg-white border-r border-gray-200"
 >
 <h3 
         style={{ 

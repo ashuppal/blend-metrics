@@ -12,6 +12,7 @@ import SecuritySettings from "@/components/ui/securitySettings";
       <Sidebar />
       <div className="flex flex-col w-full">
         <AvatarSecurity />
+        <SideMenu />
       </div>
     </div>
   );

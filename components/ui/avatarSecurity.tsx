@@ -26,11 +26,11 @@ export const AvatarSecurity = () =>  {
           </li>
           <li className="flex items-center gap-x-2 text-sm font-semibold leading-6 text-gray-500">
             <span className="text-gray-500">/</span>
-            <Link href="/" style={{ width: '57px', height: '17px' }}>Security</Link>
+            <Link href="/">Security</Link>
           </li>
           <li className="flex items-center gap-x-2 text-sm font-semibold leading-6 text-gray-black">
             <span className="text-gray-500">/</span>
-            <Link href="/" style={{ width: '57px', height: '17px' }}>Login & Password</Link>
+            <Link href="/" >Login & Password</Link>
           </li>
         </ol>
       </div>

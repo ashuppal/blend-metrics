@@ -15,7 +15,7 @@ export const Sidebar =() => {
   return <nav className="flex h-screen w-[70px] flex-col items-center border-r border-gray-200 bg-white">
       <div className="py-[22px]">
         <Link className="text-primary-500 focus:outline-none" aria-label="Logo" href="/">
-          <Logo />
+          <Logo style={{ width: '25px', height: '25px' }}/>
         </Link>
       </div>
       <div className="flex flex-auto flex-col items-center justify-between self-stretch border-t border-gray-200">
@@ -23,7 +23,7 @@ export const Sidebar =() => {
           <TooltipProvider>
             <Tooltip>
               <TooltipTrigger className="inline-flex h-10 w-10 items-center justify-center rounded-[4px] text-gray-500 transition-colors hover:bg-primary-50 hover:text-primary-500 focus:outline-none">
-                <Home />
+                <Home style={{ width: '15px', height: '15px' }} />
               </TooltipTrigger>
               <TooltipContent className="font-semibold" side="right">
                 Home
@@ -33,7 +33,7 @@ export const Sidebar =() => {
           <TooltipProvider>
             <Tooltip>
               <TooltipTrigger className="inline-flex h-10 w-10 items-center justify-center rounded-[4px] text-gray-500 transition-colors hover:bg-primary-50 hover:text-primary-500 focus:outline-none">
-                <BarChartSquare />
+                <BarChartSquare style={{ width: '15px', height: '15px' }} />
               </TooltipTrigger>
               <TooltipContent className="font-semibold" side="right">
                 Stats
@@ -43,7 +43,7 @@ export const Sidebar =() => {
           <TooltipProvider>
             <Tooltip>
               <TooltipTrigger className="inline-flex h-10 w-10 items-center justify-center rounded-[4px] text-gray-500 transition-colors hover:bg-primary-50 hover:text-primary-500 focus:outline-none">
-                <ThreeLayers />
+                <ThreeLayers style={{ width: '15px', height: '15px' }} />
               </TooltipTrigger>
               <TooltipContent className="font-semibold" side="right">
                 Projects
@@ -53,7 +53,7 @@ export const Sidebar =() => {
           <TooltipProvider>
             <Tooltip>
               <TooltipTrigger className="inline-flex h-10 w-10 items-center justify-center rounded-[4px] text-gray-500 transition-colors hover:bg-primary-50 hover:text-primary-500 focus:outline-none">
-                <Users />
+                <Users style={{ width: '15px', height: '15px' }}/>
               </TooltipTrigger>
               <TooltipContent className="font-semibold" side="right">
                 Team
@@ -86,7 +86,7 @@ export const Sidebar =() => {
 
       
               <Avatar style={{ width: '35px', height: '35px' }}>
-                <AvatarImage src="/man.jpg" alt="Man" />
+                <AvatarImage src="/man1.svg" alt="Man" />
                 <AvatarFallback>M</AvatarFallback>
               </Avatar>
           

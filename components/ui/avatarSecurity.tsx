@@ -22,15 +22,15 @@ export const AvatarSecurity = () =>  {
 
         <ol className="flex items-center gap-x-2">
           <li className="text-sm font-semibold leading-6 text-gray-500">
-            <Link href="/">Settings</Link>
+            <Link href="/" style={{ width: '57px', height: '17px' }}>Settings</Link>
           </li>
           <li className="flex items-center gap-x-2 text-sm font-semibold leading-6 text-gray-500">
             <span className="text-gray-500">/</span>
-            <Link href="/">Security</Link>
+            <Link href="/" style={{ width: '57px', height: '17px' }}>Security</Link>
           </li>
           <li className="flex items-center gap-x-2 text-sm font-semibold leading-6 text-gray-black">
             <span className="text-gray-500">/</span>
-            <Link href="/">Login & Password</Link>
+            <Link href="/" style={{ width: '57px', height: '17px' }}>Login & Password</Link>
           </li>
         </ol>
       </div>
